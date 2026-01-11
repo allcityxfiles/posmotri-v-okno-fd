@@ -1,26 +1,44 @@
 @font-face {
   font-family: Oswald;
+<<<<<<< HEAD
   src:
     url(./Oswald-Bold.woff2) format('woff2'),
     url(./Oswald-Bold.woff) format('woff');
+=======
+  src: url(./Oswald-Bold.woff2) format("woff2"),
+    url(./Oswald-Bold.woff) format("woff");
+>>>>>>> edff66af31adb27ea8bd48535aeb6e07ee4c40b0
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
+<<<<<<< HEAD
   font-family: 'Fira Sans Condensed';
   src:
     url(./FiraSansCondensed-Regular.woff2) format('woff2'),
     url(./FiraSansCondensed-Regular.woff) format('woff');
+=======
+  font-family: "Fira Sans Condensed";
+  src: url(./FiraSansCondensed-Regular.woff2) format("woff2"),
+    url(./FiraSansCondensed-Regular.woff) format("woff");
+>>>>>>> edff66af31adb27ea8bd48535aeb6e07ee4c40b0
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
+<<<<<<< HEAD
   font-family: 'Fira Sans Condensed';
   src:
     url(./FiraSansCondensed-Bold.woff2) format('woff2'),
     url(./FiraSansCondensed-Bold.woff) format('woff');
+=======
+  font-family: "Fira Sans Condensed";
+  src: url(./FiraSansCondensed-Bold.woff2) format("woff2"),
+    url(./FiraSansCondensed-Bold.woff) format("woff");
+>>>>>>> edff66af31adb27ea8bd48535aeb6e07ee4c40b0
   font-weight: 700;
   font-style: normal;
 }
+
