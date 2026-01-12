@@ -70,7 +70,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 15px; 
+  margin-bottom: 16px;
 }
 
 .result__video {
@@ -84,6 +84,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 40px;
 }
 
 .search-form__fieldset {
@@ -111,6 +112,10 @@ ol {
 
 .search-form__label:hover {
   cursor: pointer;
+}
+
+.search-form__label:has(.search-form__label-text:hover){
+  text-decoration: underline;
 }
 
 .search-form__label:focus {
@@ -231,21 +236,18 @@ ol {
   position: relative;
   height: 298px;
   overflow-y: auto;
- padding-top: 8px; 
+  padding-top: 8px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 30px;
 }
 
 .content__list-item {
   padding-inline: 3px;
-}
-
-.content__list-item:last-child {
-  margin-bottom: 30px;
 }
 
 .content__card-link {
@@ -299,8 +301,7 @@ ol {
   font-weight: 400;
   line-height: 16.2px;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
